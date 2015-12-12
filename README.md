@@ -8,10 +8,11 @@ Operating System Project
 
 <p> •Handled bash command ending with ”&” via creating a new process with fork() function without blocking current shell.</p>
 
-<img src="" />
+<img src="https://raw.githubusercontent.com/CarollChen/OS/master/Shell%20Interface/ScreenShot.jpg" />
 ========================================
 <h2>Multi-Thread Soduko Verfication </h2>
 <p> •Create 27 threads to chenck each row, column and block of a Soduko</p>
+<img src="https://raw.githubusercontent.com/CarollChen/OS/master/Sudoku/screenShot.jpg" />
 ========================================
 <h2>Sleeping TA</h2>
 <p> •Created one TA and four student threads with Pthread.</p>
@@ -23,3 +24,5 @@ Operating System Project
 <p> •Lock the mutex lock on TA when the TA is busy.</p>
 
 <p> •Utilized condition broadcast when TA is able to help next student.</p>
+
+<img src="https://raw.githubusercontent.com/CarollChen/OS/master/Sleeping%20TA/screenShot.jpg"/>
