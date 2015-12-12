@@ -8,8 +8,18 @@ Operating System Project
 
 <p> •Handled bash command ending with ”&” via creating a new process with fork() function without blocking current shell.</p>
 
+<img src="" />
 ========================================
 <h2>Multi-Thread Soduko Verfication </h2>
-
+<p> •Create 27 threads to chenck each row, column and block of a Soduko</p>
 ========================================
 <h2>Sleeping TA</h2>
+<p> •Created one TA and four student threads with Pthread.</p>
+
+<p> •Student threads will alternate between programming for a period of time using rand r() and sleep().</p>
+
+<p> •Used semaphore to synchronize and simulate students that are queued up and wait for TA.</p>
+
+<p> •Lock the mutex lock on TA when the TA is busy.</p>
+
+<p> •Utilized condition broadcast when TA is able to help next student.</p>
