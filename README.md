@@ -8,10 +8,11 @@ Operating System Project
 
 <p> •Handled bash command ending with ”&” via creating a new process with fork() function without blocking current shell.</p>
 
+<p> •From the following picture we can find "sleep 5m" process running in a different process using "ps -af" command.</p>
 <img src="https://raw.githubusercontent.com/CarollChen/OS/master/Shell%20Interface/ScreenShot.jpg" />
 ========================================
 <h2>Multi-Thread Soduko Verfication </h2>
-<p> •Create 27 threads to chenck each row, column and block of a Soduko</p>
+<p> •Create 27 threads to check each row, column and block of a Soduko</p>
 <img src="https://raw.githubusercontent.com/CarollChen/OS/master/Sudoku/screenShot.jpg" />
 ========================================
 <h2>Sleeping TA</h2>
